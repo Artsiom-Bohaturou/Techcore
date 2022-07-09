@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Techcore/static/css/main.6d26a6a1.css",
+    "main.js": "/Techcore/static/js/main.50ea3aa8.js",
+    "static/media/booking-2 1 (Traced).svg": "/Techcore/static/media/booking-2 1 (Traced).a5eb4d597b712f8384b2d473315813f9.svg",
+    "static/media/icon-vacation-manager.svg": "/Techcore/static/media/icon-vacation-manager.b503700331dd686d05a5222cefc60e51.svg",
+    "static/media/Vector.svg": "/Techcore/static/media/Vector.cd01f588103a2e78d2d8e2389ebc1c00.svg",
+    "static/media/Vector(1).svg": "/Techcore/static/media/Vector(1).a3bae9579f9e149bc23efb7b33826d60.svg",
+    "static/media/settings-2 1 (Traced).svg": "/Techcore/static/media/settings-2 1 (Traced).a584fabf4b1f4f0fb970600a213800c5.svg",
+    "static/media/Vector(2).svg": "/Techcore/static/media/Vector(2).53ab049402e7e8f7f268786c5e416e77.svg",
+    "static/media/group 1 (Traced).svg": "/Techcore/static/media/group 1 (Traced).bb11c4386ffd48151e6940adb750d095.svg",
+    "static/media/info 1 (Traced).svg": "/Techcore/static/media/info 1 (Traced).624ad5dbbf7c99fce1bb87c79e9a3f82.svg",
+    "static/media/setting 1 (Traced).svg": "/Techcore/static/media/setting 1 (Traced).20616e8ba91b1866fa433b628cd9ed7e.svg",
+    "static/media/Shape.svg": "/Techcore/static/media/Shape.f9335902a584026eae82bc4f17542785.svg",
+    "static/media/warning 1 (Traced).svg": "/Techcore/static/media/warning 1 (Traced).3abd39318a9bed7afcf0c3092e960ffe.svg",
+    "static/media/bell 1 (Traced).svg": "/Techcore/static/media/bell 1 (Traced).d2483b7b3c68bfc00af9.svg",
+    "static/media/home 1 (Traced).svg": "/Techcore/static/media/home 1 (Traced).fa59bb89633b6bb43f09d1be7208353f.svg",
+    "static/media/folder 1 (Traced).svg": "/Techcore/static/media/folder 1 (Traced).0aa2ac82ac900bd227fef3aacb117288.svg",
+    "index.html": "/Techcore/index.html",
+    "main.6d26a6a1.css.map": "/Techcore/static/css/main.6d26a6a1.css.map",
+    "main.50ea3aa8.js.map": "/Techcore/static/js/main.50ea3aa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d26a6a1.css",
+    "static/js/main.50ea3aa8.js"
+  ]
+}
