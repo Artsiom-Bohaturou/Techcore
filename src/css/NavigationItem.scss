@@ -1,0 +1,23 @@
+.NavigationItem {
+    margin-bottom: 40px;
+
+    .NavigationLink {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .NavigationText {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 120%;  
+        color: #AFB6C6;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .NavigationActive {
+        color: #00A0EC;
+    }
+}

@@ -1,0 +1,75 @@
+.AdditionalCardSettings {
+    position: absolute;
+    top:20px;
+    right: 20px;
+
+    .AdditionalCardSettingsMenu {
+        position: absolute;
+        right: 0;
+        top:calc(24px + 4px);
+        background-color: #fff;
+        width: 144px;
+        border: 0.1px solid #EEF0F6;
+        box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.05), 2px 2px 15px rgba(0, 44, 175, 0.05);
+        border-radius: 6px;
+
+        .AdditionalCardSettingsMenuItem {
+            font-size: 13px;
+            line-height: 16px;
+            margin: 16px;
+            
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 6px;
+            }
+        }
+    }
+
+    .AdditionalSettingsIcon {
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+
+        span {
+            top:0px;
+
+            &,&::after,&::before {
+                display: block;
+                background-color: #AFB6C6;
+                width: 3px;
+                height: 3px;
+                border-radius: 50%;
+                position: relative;
+            }
+
+            &::after,&::before {
+                content: '';
+            }
+
+            &::after {
+                top:3px;
+            }
+
+            &::before {
+                top:-6px;
+            }
+        }
+
+        &.Active {
+            background-color: #EEF7FC;
+
+            span {
+                &,&::after,&::before {
+                    background-color: #00A0EC;
+                }
+            }
+        }
+    }
+}

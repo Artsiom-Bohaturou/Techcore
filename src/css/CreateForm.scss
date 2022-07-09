@@ -1,0 +1,130 @@
+.CreateForm {
+    font-size: 13px;
+
+    .InputLabel {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        position: absolute;
+        top:-8px;
+        left:10px;
+        z-index: 1;
+        background-color: #fff;
+    }
+    
+    .RequiredField {
+        color:rgba(242, 68, 69, 1);
+    }
+
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background: #EEF7FC;
+        border: 1px solid #00A0EC;
+        width: 16px;
+        height: 16px;
+
+        &::after {
+            border-color: #00A0EC;
+        }
+    }
+    .ant-select-selector:hover, .ant-select-selector:focus-within {
+        border: 1px solid #8e40f6 !important;
+    }
+
+    .ant-select-item-option-state {
+        background-color: #8e40f6;
+    }
+
+    fieldset {
+        border: none;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    .NameFieldset {
+
+        label {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            height: 40px;
+            padding: 8px 16px;
+            line-height: 20px;
+            border: solid 1px #AFB6C6;
+            outline: none;
+        }
+    }
+
+    .WorkweekFieldset {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        & > div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 12px ;
+        }
+    }
+
+    .QuoteReset {
+        margin-top: calc(8px + 24px);
+
+        .ant-select {
+            width: calc(100% - 26px);
+        }
+    }
+
+    .YearStart {
+        margin-top: calc(8px + 24px);
+
+        .ant-select {
+            width:150px;
+            margin-right: 10px;
+        }
+    }
+
+    .WeekStart {
+        .ant-select {
+            width: 150px;
+        }
+    }
+
+    .Timezone {
+        .ant-select {
+            width: calc(100% - 26px);
+        }
+    }
+
+    .AddUsers {
+        .ant-select {
+            width: 100%;
+        }
+    }
+
+    .AdditionalInfo {
+        background: #EEF7FC;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 160, 236, 0.4);
+        padding: 8px 12px;
+    }
+
+    .ButtonsContainer {
+        display: flex;
+        justify-content: flex-end;
+
+        .CloseButton,.CreateButton {
+            width: 93px;
+        }
+
+        .CloseButton {
+            background: #AFB6C6;
+            margin-right: 8px;
+        }
+
+        .CreateButton {
+            background: linear-gradient(0deg, rgba(0, 160, 236, 0.7), rgba(0, 160, 236, 0.7)), #FFFFFF;
+        }
+    }
+}

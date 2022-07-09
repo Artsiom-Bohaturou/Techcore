@@ -1,0 +1,65 @@
+.LocationCard {
+    height: 173px;
+    box-shadow: 2px 2px 15px #002caf0d;
+    border-radius: 6px;
+    border:#afb6c666 1px solid;
+    padding: 20px;
+    position: relative;
+
+    .LocationCardCountryName {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        color: #1E212A;
+        cursor: pointer;
+
+        &:hover {
+            color:#00A0EC;
+        }
+
+        .LocationCardDefault {
+            background-color: #00A0EC;
+            border-radius: 24px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color:#fff;
+            margin-left: 8px;
+            width: 72px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: lowercase;
+        }
+    }
+
+    .LocationCardCountryInfo {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 24px 0 16px 0;
+    }
+
+    .LocationCardInfo {
+        font-weight: 500;
+        margin: 0px 16px 0 0;
+        display: block;
+    }
+
+    .LocationCardLink {
+        color: #00A0EC;
+        display: block;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .LocationCardAvatar {
+        margin-right: 4px;
+    }
+}

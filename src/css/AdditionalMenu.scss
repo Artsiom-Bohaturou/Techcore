@@ -1,0 +1,72 @@
+.AdditionalMenu {
+    width: 240px;
+    height: 100%;
+    padding: 24px;
+    background-color: #F5F9FE;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    border-right: rgba(46, 91, 255, 0.1) solid 1px;
+    position: absolute;
+    left: calc(-240px + 12px + 100px);
+    transition: 0.25s;
+
+    &.Active {
+        position: relative;
+        left:0;
+    }
+
+    .TabName {
+        font-weight: 600;
+        font-size: 16px;
+        color: #AFB6C6;
+        margin-bottom: 16px;
+    }
+
+    .SettingsTitle {
+        display: flex;
+        align-items: center;
+        color: #1E212A;
+        margin-bottom: 20px;
+        
+        img {
+            margin-right: 13px;
+        }
+    }
+
+    .SettingsItem {
+        cursor: pointer;
+    }
+
+    .SettingsListTitle {
+        color: #00A0EC;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 12px;
+        }
+    }
+
+    .SettingsList {
+        .SettingsListItem {
+            width: calc(100% + 48px);
+            height: 32px;
+            font-weight: 400;
+            font-size: 13px;
+            cursor: pointer;
+            position: relative;
+            left:-24px;
+            display: flex;
+            align-items: center;
+            padding-left: 56px;
+            margin: 16px 0;
+
+
+            &.SettingsListActive {
+                color: #00A0EC;
+                background-color: #EEF7FC;
+            }
+        }
+    }
+}

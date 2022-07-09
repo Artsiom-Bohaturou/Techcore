@@ -1,0 +1,26 @@
+.CreatePopup {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(36, 44, 72,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    &.Active {
+        display: flex;
+    }
+
+    .CreatePopupContainer {
+        width: 550px;
+        background-color: #fff;
+        border-radius: 12px;   
+    }
+
+    .CreatePopupContent {
+        padding:45px 40px;
+    }
+}

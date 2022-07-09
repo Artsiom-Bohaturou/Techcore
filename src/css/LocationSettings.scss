@@ -1,0 +1,32 @@
+.LocationSettings {
+
+    .LocationSettingsHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .LocationSettingsTitle {
+        color:#1E212A;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .LocationSettingsDescription {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color:#1e212acc;
+    }
+
+    .LocationSettingsButton {
+        background-color: #00A0EC;
+        width: 152px;
+
+        &:hover {
+            background-color: #0683DD;
+        }
+    }
+}

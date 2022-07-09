@@ -1,0 +1,28 @@
+.InfoIcon {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 8px;
+
+    .InfoText {
+        padding: 8px 12px;
+        font-size: 11px;
+        line-height: 18px;
+        color:#fff;
+        background-color: rgb(51, 51, 51,0.8);
+        border-radius: 4px;
+        display: none;
+        max-width: 309px;
+        min-width: 279px;
+        position: absolute;
+        top:-500%;
+        left:0;
+    }
+
+    &:hover {
+
+        .InfoText {
+            display: block;
+        }
+    }
+}

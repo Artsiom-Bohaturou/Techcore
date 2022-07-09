@@ -1,0 +1,32 @@
+.Logo {
+    background: linear-gradient(226.4deg, #169BD6 4.97%, #00A0EC 4.98%, #0682DD 107.53%);
+    border-radius: 8px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto 60px auto;
+
+    &::after,&::before {
+        content: '';
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    &::before {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        z-index: 1;
+    }
+
+    &::after {
+        width: 12px;
+        height: 12px;
+        background: linear-gradient(226.4deg, #169BD6 4.97%, #00A0EC 4.98%, #0682DD 107.53%);
+        z-index: 2;
+    }
+}

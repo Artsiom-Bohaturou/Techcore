@@ -1,0 +1,24 @@
+.Breadcrumbs {
+    width: 100%;
+
+    .BreadcrumbLink {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        display: inline-flex;
+        align-items: center;
+        letter-spacing: -0.1px;
+        color: #00A0EC;
+        cursor: pointer;
+    }
+
+    .BreadcrumbsIcon {
+        width: 14px;
+        height: 13px;
+        margin-right: 4px;
+    }
+
+    .BreadcrumbArrow {
+        margin: 0 10px;
+    }
+}
